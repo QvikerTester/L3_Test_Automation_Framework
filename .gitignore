@@ -1,0 +1,64 @@
+# =========================
+# Build artifacts
+# =========================
+bin/
+obj/
+
+# =========================
+# Visual Studio
+# =========================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+
+
+TestResults/
+*.trx
+
+# =========================
+# Logs & screenshots
+# =========================
+*.log
+Screenshots/
+Logs/
+
+# =========================
+# NuGet
+# =========================
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+
+# =========================
+# Coverage reports
+# =========================
+coverage/
+*.coverage
+*.coveragexml
+
+# =========================
+# Selenium / Drivers
+# =========================
+chromedriver.exe
+geckodriver.exe
+
+# =========================
+# Misc
+# =========================
+*.cache
